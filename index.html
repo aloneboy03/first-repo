@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <title>Web_kurs</title>
+</head>
+<body>
+    <div class="wrapper">
+        <a href="#" class="menu-btn">
+            <span></span>
+        </a>
+    </div>
+    <script>
+        $('.menu-btn').on('click', function(e) {
+            e.preventDefault;
+            $(this).toggleClass('menu-btn-active');
+        });
+    </script>
+</body>
+</html>
